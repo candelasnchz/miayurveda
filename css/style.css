@@ -1,0 +1,221 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+p {
+  font-family: "lato";
+  font-size: 16px;
+  font-weight: 400;
+  color: #625E5B;
+  margin-bottom: 10px;
+  line-height: 18px; }
+
+body {
+  padding-top: 70px; }
+
+@media screen and (max-width: 768px) {
+  body {
+    padding-top: 40px; } }
+.superior {
+  padding-top: 50px; }
+
+.navbar-brand {
+  padding-top: 0px; }
+
+.navbar-default {
+  background: #FF6F04;
+  font-family: "roboto"; }
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a {
+  color: #FFF; }
+
+.intro {
+  text-transform: uppercase;
+  text-align: center;
+  color: #FF6F04;
+  font-family: "roboto";
+  font-size: 2em;
+  margin: 20px 0; }
+
+h1 {
+  text-align: center;
+  margin: auto;
+  padding: 20px 0;
+  width: 55%;
+  color: #FF6F04;
+  font-family: "roboto";
+  font-size: 1.2em;
+  line-height: 25px; }
+
+@media screen and (max-width: 680px) {
+  h1 {
+    width: 100%; } }
+.elementos {
+  width: 100%;
+  margin-top: 30px; }
+  .elementos img {
+    display: block;
+    margin: 20px auto; }
+  .elementos p {
+    margin-bottom: 10px;
+    line-height: 18px; }
+  .elementos h4 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #FF6F04;
+    font-family: "roboto";
+    font-size: 1.5em;
+    margin: 20px 0; }
+
+.vpk {
+  width: 100%;
+  margin-bottom: 50px; }
+  .vpk img {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 25px; }
+  .vpk h4 {
+    text-transform: uppercase;
+    text-align: center;
+    color: #FF6F04;
+    font-family: "roboto";
+    font-size: 1.5em;
+    margin: 20px 0; }
+
+.modal-title {
+  font-family: "roboto";
+  text-transform: uppercase; }
+
+.btn-primary {
+  border: 2px solid #FF6F04;
+  background: #FFF;
+  color: #FF6F04;
+  font-family: "roboto";
+  float: right;
+  margin-top: 15px;
+  margin-bottom: 20px; }
+
+.btn-primary:hover {
+  border-color: #FF6F04;
+  background: #FF6F04;
+  color: #FFF;
+  font-family: "roboto"; }
+
+.btn-success {
+  border-color: #FF6F04 !important;
+  background: #FF6F04 !important;
+  color: #FFF !important;
+  font-family: "roboto" !important; }
+
+.btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+  color: #FFF;
+  background-color: #FF6F04;
+  border-color: #FF6F04; }
+
+.btn-primary:focus, .btn-primary.focus {
+  color: #FFF;
+  background-color: #FF6F04;
+  border-color: #FF6F04; }
+
+.btn-success:visited {
+  border-color: #FF6F04 !important;
+  background: #FF6F04 !important;
+  color: #FFF !important;
+  font-family: "roboto" !important; }
+
+.modal-footer {
+  font-family: "lato";
+  font-size: 16px;
+  font-weight: 400;
+  color: #625E5B; }
+  .modal-footer p {
+    margin-bottom: 10px;
+    line-height: 18px; }
+
+/*accordion*/
+.panel-default > .panel-heading {
+  color: #FFF;
+  background-color: #FF6F04;
+  border-color: #FF6F04; }
+
+a.panel-heading {
+  display: block;
+  font-family: "roboto";
+  text-decoration: none; }
+
+.panel-group {
+  width: 100%;
+  margin: auto; }
+
+.parallax {
+  /* The image used */
+  background-image: url("https://cdn.allwallpaper.in/wallpapers/2560x1600/13611/orange-light-background-2560x1600-wallpaper.jpg");
+  /* Set a specific height */
+  min-height: 200px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.parallax2 {
+  /* The image used */
+  background-image: url("http://cdn.paper4pc.com/images/orange-light-wallpaper-4.jpg");
+  /* Set a specific height */
+  min-height: 200px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.copyright {
+  background: #FF6F04;
+  color: #FFF; }
+  .copyright p {
+    color: #FFF;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px; }
+
+/*# sourceMappingURL=style.css.map */
